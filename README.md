@@ -46,8 +46,21 @@ This project aims to automate garbage classification using computer vision. It i
 
 ---
 
+## 📊 Confusion Matrix
+
+Below is the confusion matrix showing the distribution of predictions across all classes:
+
+<img width="3000" height="2250" alt="image" src="https://github.com/user-attachments/assets/ff2f0148-50ef-452f-b264-a8fd9daf6011" />
+
+> This provides deeper insight into class-wise misclassifications. For instance, `BIODEGRADABLE` is often confused with background, while `PLASTIC` overlaps slightly with `METAL`.
+
+---
+
 ## 🖼️ Sample Inference
 
-The notebook includes prediction on test images with class names and confidence levels printed:
+The notebook includes prediction on test images with class names and confidence levels printed. Some examples:
 
 <img width="520" height="515" alt="image" src="https://github.com/user-attachments/assets/46a7f7f2-8c98-413c-b186-f0445f1ec723" />
+
+<img width="1683" height="653" alt="image" src="https://github.com/user-attachments/assets/6e562eee-b756-429f-bd63-7f7fdeed9a71" />
+
